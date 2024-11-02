@@ -1,0 +1,38 @@
+
+img{
+    width: 300px;
+    height: 300px;
+}
+.container .row{
+    row-gap: 50px;
+}
+@media (max-width:460px) {
+
+ img{
+    width: 100px;
+    height: 100px;
+}
+.container .row{
+    row-gap: 10px;
+}
+}
+@media (min-width:461px) and (max-width:780px) {
+img{
+    width: 165px;
+    height: 185px;
+}
+.container .row{
+    row-gap: 30px;
+}
+
+}
+@media (min-width:781px) and (max-width:1200px) {
+img{
+    width: 230px;
+    height: 270px;
+}
+.container .row{
+    row-gap: 40px;
+}
+
+}

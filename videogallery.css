@@ -1,0 +1,57 @@
+.gallery {
+    background-color: black;
+    color: white;
+}
+
+
+
+@media (max-width:460px) {
+    .foot {}
+
+}
+
+@media (max-width:460px) {
+    .xy {
+        width: 500px;
+    }
+
+}
+
+@media (min-width:461px) and (max-width:780px) {
+    .xy {
+        width: 776px;
+    }
+
+}
+
+@media (max-width:460px) {
+    .navbar {
+        width: 600px;
+    }
+}
+
+@media (min-width:461px) and (max-width:780px) {
+    .navbar {
+        width: 800px;
+    }
+
+}
+
+.video {
+    margin: 5%;
+}
+
+@media (max-width:460px) {
+    .yt {
+        width: 300px;
+        margin: 3%;
+    }
+
+}
+@media (min-width:461px) and (max-width:780px){
+    .yt{
+        width: 700px;
+    }
+    
+}
+
